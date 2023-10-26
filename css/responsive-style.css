@@ -31,10 +31,21 @@ header_wrapper .nav-item .nav-link{
 
 }
 
+/* banner wrapper  */
 .banner_wrapper{
     padding: 200px 0;
 
 }
+
+/* about  */
+
+ .about_wrapper ul.nav-pills{
+    width: 61%;
+    margin: auto;
+ }
+
+
+
 }
 
 
@@ -59,5 +70,18 @@ header_wrapper .nav-item .nav-link{
         line-height: 24px;
 
     }
+
+    /* about  */
+
+ .about_wrapper ul.nav-pills{
+    width: 100%;
+    margin: auto;
+    border: 0;
+ }
+
+ .about_wrapper ul li .nav-link{
+    font-size: 13px;
+ }
+
 
 }

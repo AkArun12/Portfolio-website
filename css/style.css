@@ -40,6 +40,7 @@
     var(--primary-color) 79.69%
   );
   --gray-color: #d8c8c8;
+  --white-color: #fff;
 
   /* Text color  */
 
@@ -178,10 +179,10 @@ button {
   height: auto;
 }
 
-.header_wrapper .navbar-toggler {
+.header_wrapper .navbar-toggler{
   border: 0;
-  color: var(--gray-color);
-  line-height: 2;
+  color: var(--bg-white);
+  line-height: 3;
 }
 
 .header_wrapper .navbar-toggler:focus {
@@ -249,12 +250,12 @@ button {
 
 /* 4. About  */
 
-.about_wrapper ul.nav-pills{
+.about_wrapper ul.nav-pills {
   border: 3px solid var(--gray-color);
   border-radius: 50px;
 }
 
-.about_wrapper ul li .nav-link{
+.about_wrapper ul li .nav-link {
   border-radius: 50px;
   font-size: 15px;
   font-weight: 500;
@@ -264,33 +265,33 @@ button {
   border: 0;
 }
 
-.about_wrapper ul li .nav-link.active{
+.about_wrapper ul li .nav-link.active {
   background-color: var(--primary-color);
 }
 
-.about_wrapper .single-progress{
+.about_wrapper .single-progress {
   margin-top: 26px;
   position: relative;
   overflow: hidden;
 }
 
-.about_wrapper .single-progress .progress{
-  height: 4px;
-  border-radius: 4px;
+.about_wrapper .single-progress .progress {
+  height: 3px;
+  border-radius: 2px;
   box-shadow: none;
   background-color: var(--bg-white);
   overflow: visible;
 }
 
-.about_wrapper .single-progress .progress-bar{
+.about_wrapper .single-progress .progress-bar {
   background-image: var(--gradient-color);
 }
 
-.about_wrapper .single-progress h6{
+.about_wrapper .single-progress h6 {
   text-align: left;
 }
 
-.about_wrapper .single-progress .label{
+.about_wrapper .single-progress .label {
   position: absolute;
   right: 0;
   top: 0;
@@ -298,15 +299,15 @@ button {
   font-size: 15px;
 }
 
-.about_wrapper .tab-pane li{
+.about_wrapper .tab-pane li {
   color: var(--gray-color);
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   font-weight: 300;
   list-style: none;
 }
 
-.about_wrapper .tab-pane ul li a{
+.about_wrapper .tab-pane ul li a {
   font-weight: 500;
   display: block;
   color: var(--text-gray);
@@ -344,8 +345,6 @@ button {
   background-position: top center;
   background-size: cover;
 }
-
-
 
 /* 7 contact  */
 

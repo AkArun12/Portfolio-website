@@ -39,13 +39,14 @@
     #7644ff 50.19%,
     var(--primary-color) 79.69%
   );
-  --gray-color: #808080;
+  --gray-color: #d8c8c8;
+
 
   /* Text color  */
 
   --primary-font: "Poppins", sans-serif;
   --primary-text: #fd4766;
-  --text-gray: #c6c9d8bf;
+  --text-gray: #e7e9f4bf;
   --text-white: #fff;
 }
 
@@ -78,6 +79,7 @@ input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
 
 section {
   padding: 50px 0;
@@ -345,3 +347,86 @@ button{
   color:var(--text-gray) ;
 
 } 
+
+/*5. services  */
+
+.services_wrapper .card{
+  background-color: var(--bg-dark-blue);
+  cursor: pointer;
+  transition: transform 0.65s cubic-bezier(0.05,0.2,0.1,1);
+  box-shadow: 0.65s cubic-bezier(0.05,0.2,0.1,1);
+
+}
+
+.services_wrapper .card:hover{
+  box-shadow: 0px 2px 70px 0 rgb(253 71 102 /5% );
+  transform: translateY(-5px);
+
+}
+
+
+/* 6 Portfolio  */
+
+.portfolio_wrapper .card{
+  height: 100%;
+  min-height: 350px;
+  overflow: hidden;
+  border: 1px solid var(--bg-white);
+  cursor: pointer;
+  box-shadow: 0 0 16px 4px var(--bg-dark-blue);
+
+}
+
+.portfolio_wrapper .span{
+  transition: background-position 4s ease-in-out 0s;
+  width: 100%;
+  height: 100%;
+  background-position:top center;
+  background-size: cover;
+
+}
+
+.portfolio_wrapper .card:hover span{
+  background-position: bottom center ;
+  
+
+}
+
+/* 7 contact  */
+
+.contact_wrapper .form-control,
+.contact_wrapper .textarea{
+  background-color: transparent;
+  border-color: var(--gray-color);
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10px 20px;
+
+
+
+}
+
+.contact_wrapper .form-control:hover,
+.contact_wrapper .textarea:hover,
+.contact_wrapper .form-control:focus,
+.contact_wrapper .textarea:focus{
+  border-color: var(--primary-color);
+color: var(--text-white);
+}
+  
+.contact_wrapper .call_details{
+  color: var(--text-gray);
+}
+
+.contact_wrapper .call_details a{
+  font-weight: 700;
+  color: var(--text-gray);
+
+}
+
+
+/* Footer  */
+
+.footer_wrapper  {
+  
+}

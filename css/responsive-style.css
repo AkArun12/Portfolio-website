@@ -36,8 +36,18 @@
     width: 61%;
     margin: auto;
   }
+
+/* portfolio  */
+  .portfolio_wrapper .card{
+    width: 100%;
+    margin: auto;
+  }
 }
 
+
+
+
+/* .................................. */
 @media (max-width: 767px) {
   /* custom css  */
 
